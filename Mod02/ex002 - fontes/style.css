@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    /* lighter normal bold bolder*/
+    /* 
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: oblique;
+    text-decoration: underline;
+    shorthand font
+    = font-style-> font-wight->font-size->font-family */
+}
+/* 
+    Medidas Absolutas: 
+        cm, mm, in(polegada),px, pt, pc
+
+    Meidas Relativas:
+        em, ex, rem, vw, vh, %
+
+    Aconscelhado usar: px e em
+    16px = 1em
+*/
+h1{
+    font: italic bolder 3em 'Arial';
+}
